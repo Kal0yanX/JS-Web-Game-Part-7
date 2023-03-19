@@ -4,9 +4,6 @@ const pc = newPlayableCharacter(100, 110)
 // Create a non-playable character
 const npc = newNonPlayableCharacter(50, 300)
 
-// have the NPC start walking east immediately
-
-
 async function moveNPC(){
     await npc.walkNorth(1400)
     await npc.walkEast(1200)
